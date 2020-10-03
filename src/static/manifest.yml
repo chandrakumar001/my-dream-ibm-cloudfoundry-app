@@ -1,0 +1,7 @@
+applications:
+- name: my-dream-ibm-cloudfoundry-app
+  memory: 200M 
+- path: ./dist/my-dream-ibm-cloudfoundry-app
+  random-route: false
+  buildpacks:
+    - staticfile_buildpack
