@@ -29,4 +29,5 @@ tsconfig.json
 
 why do we need 'index.ts' file?
   
-
+        https://stackoverflow.com/questions/37682372/why-does-angular-cli-create-component-shared-index-ts/37688570#37688570
+        
