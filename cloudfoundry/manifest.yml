@@ -1,0 +1,12 @@
+---
+applications:
+  - name: my-dream-ibm-cloudfoundry-app
+    memory: ((memory))
+    disk_quota: ((diskquota))
+    instances: ((instances))
+    buildpacks:
+      - https://github.com/cloudfoundry/staticfile-buildpack  
+    random-route: false
+    path: ../dist/my-dream-ibm-cloudfoundry-app
+#    services:
+#      - another-service-bind
